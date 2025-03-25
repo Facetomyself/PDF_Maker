@@ -33,9 +33,12 @@ ENV/
 .DS_Store
 
 # Project specific
-logs/
-finished/
-*.log
+# 保留文件夹但忽略其中的文件
+logs/*
+!logs/.gitkeep
+finished/*
+!finished/.gitkeep
+
 *.spec
 config.xml
 *.html
