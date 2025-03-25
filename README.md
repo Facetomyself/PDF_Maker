@@ -62,6 +62,7 @@ python main.py
 
 ## 目录结构 
 
+```
 PDF_Maker/
 ├── main.py # 主程序
 ├── config_manager.py # 配置管理
@@ -73,3 +74,4 @@ PDF_Maker/
 ├── config.xml # 配置文件
 ├── logs/ # 日志目录
 └── finished/ # 输出目录
+```
